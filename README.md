@@ -17,7 +17,11 @@ I appended data of table 31 containing data of counts of Tamil Nadu.
 Then with use of library gspread and oauth2client library i updated data to the google sheet called trail 1.
 I have attached my python code snippets below.
   
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/61831816/145394987-dec7fb0c-0be1-40d8-8c52-0e1fd45ab223.png)
+ 
+![image](https://user-images.githubusercontent.com/61831816/145395087-6a4bfbea-b1db-4477-917c-12fdb2614919.png)
+  
+![image](https://user-images.githubusercontent.com/61831816/145395108-62d7fe31-54cf-44d4-9a53-35456ea88994.png)
 
 
 
@@ -31,6 +35,9 @@ The next part is creating a time triggered events that is croning azure function
 The cron expression that I have setup is 0 30 15 * * * according to UTC time since the storage location is at North Europe so that it gets updated at 9pm according to Indian time perfectly.
  
 Below are the screen shots of the logging information: -
+![image](https://user-images.githubusercontent.com/61831816/145395134-62331bcb-5bee-4013-9f82-509e98322d95.png)
+![image](https://user-images.githubusercontent.com/61831816/145395160-a4c8ba14-ebd2-47ad-a4c6-2e5a94d0b8a5.png)
+![image](https://user-images.githubusercontent.com/61831816/145395180-16bad522-7073-4447-987b-61322752336d.png)
  
 And below is the detailed log of last updating.
  The Google spread sheet
